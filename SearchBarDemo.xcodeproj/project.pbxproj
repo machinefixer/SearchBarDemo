@@ -11,6 +11,9 @@
 		710A71321C0ED62A0059FB6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 710A71311C0ED62A0059FB6F /* AppDelegate.m */; };
 		710A71341C0ED62A0059FB6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710A71331C0ED62A0059FB6F /* Assets.xcassets */; };
 		710A71371C0ED62A0059FB6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710A71351C0ED62A0059FB6F /* LaunchScreen.storyboard */; };
+		710A713F1C0ED8280059FB6F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710A713E1C0ED8280059FB6F /* MainStoryboard.storyboard */; };
+		710A71421C0ED98D0059FB6F /* Candy.m in Sources */ = {isa = PBXBuildFile; fileRef = 710A71411C0ED98D0059FB6F /* Candy.m */; };
+		710A71451C0EDB980059FB6F /* CandyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710A71441C0EDB980059FB6F /* CandyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,11 @@
 		710A71331C0ED62A0059FB6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		710A71361C0ED62A0059FB6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		710A71381C0ED62A0059FB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710A713E1C0ED8280059FB6F /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		710A71401C0ED98D0059FB6F /* Candy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Candy.h; sourceTree = "<group>"; };
+		710A71411C0ED98D0059FB6F /* Candy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Candy.m; sourceTree = "<group>"; };
+		710A71431C0EDB980059FB6F /* CandyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CandyTableViewController.h; sourceTree = "<group>"; };
+		710A71441C0EDB980059FB6F /* CandyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CandyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,11 @@
 				710A71351C0ED62A0059FB6F /* LaunchScreen.storyboard */,
 				710A71381C0ED62A0059FB6F /* Info.plist */,
 				710A712D1C0ED62A0059FB6F /* Supporting Files */,
+				710A713E1C0ED8280059FB6F /* MainStoryboard.storyboard */,
+				710A71401C0ED98D0059FB6F /* Candy.h */,
+				710A71411C0ED98D0059FB6F /* Candy.m */,
+				710A71431C0EDB980059FB6F /* CandyTableViewController.h */,
+				710A71441C0EDB980059FB6F /* CandyTableViewController.m */,
 			);
 			path = SearchBarDemo;
 			sourceTree = "<group>";
@@ -128,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710A713F1C0ED8280059FB6F /* MainStoryboard.storyboard in Resources */,
 				710A71341C0ED62A0059FB6F /* Assets.xcassets in Resources */,
 				710A71371C0ED62A0059FB6F /* LaunchScreen.storyboard in Resources */,
 			);
@@ -140,8 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				710A71421C0ED98D0059FB6F /* Candy.m in Sources */,
 				710A71321C0ED62A0059FB6F /* AppDelegate.m in Sources */,
 				710A712F1C0ED62A0059FB6F /* main.m in Sources */,
+				710A71451C0EDB980059FB6F /* CandyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
