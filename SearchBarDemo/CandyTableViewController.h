@@ -14,4 +14,6 @@
 @property (nonatomic, strong) NSMutableArray *filteredCandyArray;
 @property IBOutlet UISearchBar *candySearchBar;
 
+- (IBAction)goToSearch:(id)sender;
+
 @end
